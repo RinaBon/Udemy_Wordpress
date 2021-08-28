@@ -251,10 +251,10 @@ h2.title {
   line-height: 20px;
 }
 
-.gift {
+.present {
+  height: 631px;
   background: #efefef;
-  min-height: 604px;
-  padding: 88px 0 88px 0;
+  padding: 88px 0px 88px 0px;
 }
 
 .gift .gift_img {
@@ -295,7 +295,71 @@ h2.title {
 }
 
 .first_webinar {
-  height: 631px;
-  background: #efefef;
-  padding: 88px 0px 88px 0px;
+  /* height: 631px; */
+  padding: 88px 0px 52.5px 0px;
+}
+
+.first_webinar .webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1.webinar {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+h2.webinar {
+  font-family: "Roboto - Bold";
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #299cbd;
+  text-align: center;
+  line-height: 2;
+}
+
+.webinar_text {
+  font-family: "Roboto Light";
+  font-size: 23px;
+  line-height: 20px;
+  text-transform: none;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+footer {
+  height: 167px;
+  padding: 57px 0px 69px 0px;
+  background: #1a1a1a;
+}
+
+h2.links,
+h2.number {
+  font-family: "Roboto Light";
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: none;
+  color: #888;
+  text-align: center;
+}
+
+.links .href {
+  padding: 0 10px 0 10px;
+}
+
+.links .href:hover {
+  text-decoration: none;
+}
+
+.links .href:visited {
+  color: #888;
+}
+
+.links .footer_divider {
+  color: #888;
 }
