@@ -1,7 +1,13 @@
 * {
+  /* универсальный силектор */
   box-sizing: border-box; /* всегда писать */
   margin: 0;
   padding: 0;
+}
+
+html {
+  /* потом используем шрифты */
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -11,9 +17,9 @@
 }
 
 .promo {
-  height: 800px;
+  /* height: 800px; */
   background: url(../img/bg/main_bg.png) center center/cover no-repeat; /* обязательно ставить /, чтобы картинка отобразилась */
-  padding: 39px 0px 62px 0px;
+  padding: 39px 0px 59px 0px;
 }
 
 .logo .logo_img {
@@ -23,7 +29,6 @@
 
 .logo .logo_text {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 500; /* жирность */
   line-height: 24px; /* межстрочный интервал */
@@ -38,7 +43,7 @@ h1 {
 
 .title {
   color: #f9bf3b;
-  font-family: "Roboto - Black";
+  /* font-family: "Roboto Black", sans-serif; */
   font-weight: 900;
   font-size: 41px;
   line-height: 41px;
@@ -51,7 +56,6 @@ h2.title {
 }
 .simple .title_big {
   color: #ffffff;
-  font-family: "Roboto - Black";
   font-weight: 900;
   font-size: 80px; /* удалить line-height */
   text-transform: uppercase;
@@ -66,14 +70,12 @@ h2.title {
   font-weight: 300;
   font-size: 21px;
   line-height: 28px;
-  font-family: "Roboto Light";
   font-weight: 300;
   text-align: center;
 }
 
 .promo .promo_text span {
   color: #f9bf3b;
-  font-family: "Roboto Bold";
   font-weight: 700;
 }
 
@@ -88,7 +90,6 @@ h2.title {
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
   font-size: 21px;
   font-weight: 400;
   line-height: 24px;
@@ -102,9 +103,8 @@ h2.title {
 }
 
 .more .more_text {
-  font-family: "Roboto Thin";
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
@@ -124,7 +124,6 @@ h2.title {
 
 .waiting .waiting_header,
 .finish .finish_header {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -148,7 +147,6 @@ h2.title {
 .waiting .waiting_subheader {
   margin-top: 17px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 23px;
   font-weight: 400;
   text-align: center;
@@ -172,7 +170,6 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
   margin-top: 33px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -180,15 +177,15 @@ h2.title {
 
 .optimization {
   min-height: 550px;
-  padding: 102px 0107px 0;
+  padding: 48px 0 25px 0;
 }
 
 .optimization .optimization_header {
   margin-left: 391px;
+  padding-top: 20px;
   color: #299cbd;
-  font-family: "Roboto - Black";
   font-size: 29px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -198,19 +195,17 @@ h2.title {
   font-weight: 300;
   font-size: 17px;
   line-height: 27px;
-  font-family: "Roboto Light";
   color: #4a4a4a;
 }
 
 .optimization .optimization_text span {
-  font-family: "Roboto - Bold";
   font-weight: 700;
 }
 
 .optimization .optimization_img {
   position: absolute;
-  top: -54px;
-  left: -240px;
+  top: 0;
+  left: -270px;
   z-index: -1;
 }
 
@@ -245,7 +240,6 @@ h2.title {
   margin-top: 25px;
   text-align: center;
   color: #efefef;
-  font-family: Roboto;
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
@@ -266,11 +260,9 @@ h2.title {
   padding: 0 13px;
   margin-top: 23px; /* все марджины одинаковые */
   color: #252525;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   line-height: 43px;
-  font-family: "Roboto";
-  font-weight: 300;
   text-align: center;
 }
 
@@ -285,7 +277,6 @@ h2.title {
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
   font-size: 21px;
   font-weight: 400;
   line-height: 24px;
@@ -305,7 +296,6 @@ h2.title {
 }
 
 h1.webinar {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -314,7 +304,6 @@ h1.webinar {
 }
 
 h2.webinar {
-  font-family: "Roboto - Bold";
   font-size: 36px;
   font-weight: 900;
   text-transform: uppercase;
@@ -324,7 +313,7 @@ h2.webinar {
 }
 
 .webinar_text {
-  font-family: "Roboto Light";
+  font-weight: 300;
   font-size: 23px;
   line-height: 20px;
   text-transform: none;
@@ -340,7 +329,7 @@ footer {
 
 h2.links,
 h2.number {
-  font-family: "Roboto Light";
+  font-weight: 300;
   font-size: 15px;
   line-height: 21px;
   text-transform: none;
